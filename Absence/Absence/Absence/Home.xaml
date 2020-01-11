@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Absence.Home" BackgroundColor="#072F44">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text=""  />
+            <Label Text=""  />
+            <StackLayout Spacing="20" Padding="40" VerticalOptions="Center">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="30">
+                    <Image Source="home.PNG" WidthRequest="40" HeightRequest="40" />
+                    <Label Text="Home" HorizontalOptions="Center" FontSize="40"  TextColor="#D1DBEE" FontAttributes="Bold"></Label>
+                </StackLayout>
+                <Label Text=""  />
+                <Label Text=""  />
+                <StackLayout  Orientation="Horizontal" HorizontalOptions="Center">
+                    <Image Source="check.PNG" WidthRequest="34" HeightRequest="34" />
+                    <Label Text="             "  />
+                    <Button Clicked="Button_Clicked" Text="                     Absence                       "  FontAttributes="Bold" TextColor="#072F44" BackgroundColor="#D1DBEE" CornerRadius="12" HorizontalOptions="Center" HeightRequest="45"></Button>
+                </StackLayout>
+
+                <StackLayout  Orientation="Horizontal" HorizontalOptions="Center">
+                    <Image Source="plus.PNG" WidthRequest="34" HeightRequest="34" />
+                    <Label Text="             "  />
+                    <Button Clicked="Button_Clicked_1" Text="                 Add a student               "  FontAttributes="Bold" TextColor="#072F44" BackgroundColor="#D1DBEE" CornerRadius="12" HorizontalOptions="Center" HeightRequest="45"></Button>
+                </StackLayout>
+
+                <StackLayout  Orientation="Horizontal" HorizontalOptions="Center">
+                    <Image Source="book.PNG" WidthRequest="34" HeightRequest="34" />
+                    <Label Text="             "  />
+                    <Button Clicked="Button_Clicked_2" Text="                   New lesson                  "  FontAttributes="Bold" TextColor="#072F44" BackgroundColor="#D1DBEE" CornerRadius="12" HorizontalOptions="Center" HeightRequest="45"></Button>
+                </StackLayout>
+
+                <StackLayout  Orientation="Horizontal" HorizontalOptions="Center">
+                    <Image Source="search.PNG" WidthRequest="34" HeightRequest="34" />
+                    <Label Text="             "  />
+                    <Button Clicked="Button_Clicked_3" Text="                     search                         "  FontAttributes="Bold" TextColor="#072F44" BackgroundColor="#D1DBEE" CornerRadius="12" HorizontalOptions="Center" HeightRequest="45"></Button>
+                </StackLayout>
+
+                <StackLayout  Orientation="Horizontal" HorizontalOptions="Center">
+                    <Image Source="exit.PNG" WidthRequest="34" HeightRequest="34" />
+                    <Label Text="             "  />
+                    <Button Clicked="Button_Clicked_4" Text="                     Logout                          "  FontAttributes="Bold" TextColor="#072F44" BackgroundColor="#D1DBEE" CornerRadius="12" HorizontalOptions="Center" HeightRequest="45"></Button>
+                </StackLayout>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

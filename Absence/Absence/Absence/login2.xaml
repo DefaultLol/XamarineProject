@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Absence.login2" BackgroundColor="#072F44">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Grid VerticalOptions="Start">
+                    <Image Source="test2.JPEG" Aspect="AspectFit" />
+                </Grid>
+            </StackLayout>
+            <StackLayout Spacing="20" Padding="40" VerticalOptions="Center">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="30">
+                    <Image Source="user1.PNG" WidthRequest="34" HeightRequest="34" />
+                    <Label Text="Login" HorizontalOptions="Center" FontSize="35"  TextColor="#D1DBEE" FontAttributes="Bold"></Label>
+                </StackLayout>
+                <Entry x:Name="username" Placeholder="Username" TextColor="#D1DBEE" PlaceholderColor="#D1DBEE"></Entry>
+                <Entry x:Name="password" Placeholder="Password" IsPassword="True" TextColor="#D1DBEE" PlaceholderColor="#D1DBEE"></Entry>
+                <Button Text="        Login            "  FontAttributes="Bold" TextColor="#072F44" BackgroundColor="#D1DBEE" CornerRadius="20" HorizontalOptions="Center" HeightRequest="34"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

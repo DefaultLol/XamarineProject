@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Absence.searching" BackgroundColor="#072F44">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" Padding="5">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="30">
+                <Image Source="search.PNG" WidthRequest="34" HeightRequest="34" />
+                <Label Text="Searching" HorizontalOptions="Center" FontSize="35"  TextColor="#D1DBEE"  FontAttributes="Bold"></Label>
+            </StackLayout>
+            <Label Text="" ></Label>
+            <Label Text="" ></Label>
+            <Entry x:Name="lastName" Placeholder="Search for a student                                    "  VerticalOptions="Center" 
+           HorizontalOptions="Center"  TextColor="#D1DBEE" PlaceholderColor="#D1DBEE"></Entry>
+            <Label Text="" ></Label>
+            <Label Text="   Select an option: " TextColor="#D1DBEE" FontSize="20" FontAttributes="Bold"></Label>
+            <Picker x:Name="filiere" HorizontalOptions="Center"  Title="Select Filiere                                                                      " FontAttributes="Bold" />
+            <Label Text="" ></Label>
+            <Label Text="   Select a lesson: " TextColor="#D1DBEE" FontSize="20" FontAttributes="Bold"></Label>
+            <Picker x:Name="matiere"  HorizontalOptions="Center"  Title="Select Matiere                                                                                        " FontAttributes="Bold"/>
+
+            <Label Text="" ></Label>
+            <StackLayout   Spacing="20" Padding="30" Orientation="Horizontal" HorizontalOptions="Center">
+                <Button Clicked="Button_Clicked" Text="    Search    " TextColor="#072F44" BackgroundColor="#D1DBEE" CornerRadius="20"  FontSize="Large"  FontAttributes="Bold"></Button>
+                <Button Clicked="Button_Clicked_1" Text="    Cancel    " TextColor="#072F44" BackgroundColor="#D1DBEE" CornerRadius="20" FontSize="Large" FontAttributes="Bold"></Button>
+            </StackLayout>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Absence.loading" BackgroundColor="#072F44">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Grid VerticalOptions="Start">
+                    <Image Source="test2.JPEG" Aspect="AspectFit" />
+                </Grid>
+            </StackLayout>
+            <Label Text=""  />
+            <StackLayout Spacing="20" Padding="40" VerticalOptions="Center">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="30">
+                    <Image Source="logo.PNG" WidthRequest="40" HeightRequest="40" />
+                    <Label Text="MY  CLASS" HorizontalOptions="Center" FontSize="44"  TextColor="#D1DBEE" FontAttributes="Bold"></Label>
+                </StackLayout>
+                <Label Text=""  />
+                <Label Text="Loading..." TextColor="#FFC492" FontSize="25"  HorizontalOptions="Center"  FontAttributes="Bold"></Label>
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

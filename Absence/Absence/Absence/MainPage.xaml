@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Absence"
+             x:Class="Absence.MainPage" BackgroundColor="#072F44">
+
+    <ContentPage.Content>
+        <StackLayout>
+
+            <StackLayout>
+                <Grid VerticalOptions="Start">
+                    <Image Source="test2.JPEG" Aspect="AspectFit" />
+                </Grid>
+            </StackLayout>
+            <StackLayout Spacing="20" Padding="40" VerticalOptions="Center">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="30">
+                    <Image Source="logo.PNG" WidthRequest="32" HeightRequest="32" />
+                    <Label Text="MY  CLASS" HorizontalOptions="Center" FontSize="37"  TextColor="#D1DBEE" FontAttributes="Bold"></Label>
+                </StackLayout>
+
+                <Label Text="      Hey! Welcome to MY CLASS     application." FontSize="18" FontAttributes="Bold"></Label>
+                <Label Text="Copy the following link into the website you'll use this resource on. If you want to know more, read the.." FontSize="18" FontAttributes="Bold"></Label>
+                <Label Text=""  />
+                <Button Text="            START            "  FontAttributes="Bold" FontSize="40" TextColor="#072F44" BackgroundColor="#D1DBEE" CornerRadius="12" HorizontalOptions="Center" HeightRequest="60"></Button>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

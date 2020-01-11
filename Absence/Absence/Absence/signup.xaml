@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Absence.signup" BackgroundColor="#072F44">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" Padding="5">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="30">
+                <Image Source="user1.PNG" WidthRequest="34" HeightRequest="34" />
+                <Label Text="Sign Up" HorizontalOptions="Center" FontSize="35"  TextColor="#D1DBEE"  FontAttributes="Bold"></Label>
+            </StackLayout>
+            <Entry x:Name="nom" Placeholder="Username                                           "  VerticalOptions="Center" 
+           HorizontalOptions="Center"  TextColor="#D1DBEE" PlaceholderColor="#D1DBEE"></Entry>
+
+            <Entry x:Name="pass" Placeholder="Password                                              " IsPassword="True"  VerticalOptions="Center" 
+           HorizontalOptions="Center"   TextColor="#D1DBEE" PlaceholderColor="#D1DBEE"></Entry>
+            <Entry x:Name="confirm" Placeholder="Confirm Password                                " IsPassword="True"  VerticalOptions="Center" 
+           HorizontalOptions="Center"   TextColor="#D1DBEE" PlaceholderColor="#D1DBEE"></Entry>
+ 
+            <StackLayout   Spacing="20" Padding="40" VerticalOptions="Center">
+                <Button Clicked="Button_Clicked" Text="Sign Up" TextColor="#072F44" BackgroundColor="#D1DBEE" CornerRadius="20"></Button>
+                <Button Clicked="Button_Clicked_1" Text="Login" TextColor="#072F44" BackgroundColor="#D1DBEE" CornerRadius="20"></Button>
+            </StackLayout>
+     
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

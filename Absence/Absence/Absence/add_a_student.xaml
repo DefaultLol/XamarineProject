@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Absence.add_a_student" BackgroundColor="#072F44">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" Padding="5">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="30">
+                <Image Source="chapeau1.PNG" WidthRequest="34" HeightRequest="34" />
+                <Label Text="Add a student" HorizontalOptions="Center" FontSize="30"  TextColor="#D1DBEE"  FontAttributes="Bold"></Label>
+            </StackLayout>
+            <Label Text="" ></Label>
+            <Entry x:Name="code" Placeholder="CIN                                                         "   VerticalOptions="Center" 
+           HorizontalOptions="Center"   TextColor="#D1DBEE" PlaceholderColor="#D1DBEE"></Entry>
+            <Entry x:Name="fname" Placeholder="First Name                                            "  VerticalOptions="Center" 
+           HorizontalOptions="Center"  TextColor="#D1DBEE" PlaceholderColor="#D1DBEE"></Entry>
+            <Entry x:Name="lname" Placeholder="Last Name                                            "  VerticalOptions="Center" 
+           HorizontalOptions="Center"   TextColor="#D1DBEE" PlaceholderColor="#D1DBEE"></Entry>
+
+            <Entry x:Name="email" Placeholder="Email                                                      "  VerticalOptions="Center" 
+           HorizontalOptions="Center"   TextColor="#D1DBEE" PlaceholderColor="#D1DBEE"></Entry>
+            <Entry x:Name="phone" Placeholder="Phone Number                                      "   VerticalOptions="Center" 
+           HorizontalOptions="Center"   TextColor="#D1DBEE" PlaceholderColor="#D1DBEE"></Entry>
+            <Picker x:Name="option" Title="Select Filiere                                                    " VerticalOptions="Center" 
+           HorizontalOptions="Center"   TextColor="#D1DBEE" ></Picker>
+
+            <Label Text="" ></Label>
+
+            <StackLayout   Spacing="20" Padding="30" Orientation="Horizontal" HorizontalOptions="Center">
+                <Button Clicked="Button_Clicked" Text="    Add    " TextColor="#072F44" BackgroundColor="#D1DBEE" CornerRadius="20"  FontSize="Large"  FontAttributes="Bold"></Button>
+                <Button Clicked="Button_Clicked_1" Text="    Cancel    " TextColor="#072F44" BackgroundColor="#D1DBEE" CornerRadius="20" FontSize="Large" FontAttributes="Bold"></Button>
+            </StackLayout>
+
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
